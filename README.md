@@ -20,15 +20,19 @@ With an intuitive interface and scientifically backed recommendations, the app e
 
 **Features of We Care App:**
 
-•	## Symptom-Based Assessment
+•	*Symptom-Based Assessment*
 	• Users can input their symptoms to receive a comprehensive analysis of potential nutrient deficiencies categorized by general health, skin and hair, muscle and bone health, cognitive and nervous system, digestion, oral health, vision, and more.
     • Immediate feedback after inputting symptoms, allowing users to take quick action based on their health status.
-•	## Personalized Food Recommendations
+
+•	*Personalized Food Recommendations*
     • The app provides personalized food suggestions based on the identified deficiencies, offering natural remedies for minor deficiencies.
     • Provides scientifically backed recommendations for food and nutrition, ensuring users receive reliable information.
-•	## Health Category Breakdown
+
+•	*Health Category Breakdown*
     • Symptoms are categorized into specific health areas (e.g., general health, digestion, skin and hair, etc.) for targeted recommendations, making it easier for users to understand their condition.
-•	## Professional Consultation Advice
+
+•	*Professional Consultation Advice*
     • If the symptoms suggest serious or major deficiencies, the app advises users to consult a healthcare professional for further diagnosis and treatment.
-•	## Proactive Health Management
+
+•	*Proactive Health Management*
     • Empowers users to take proactive steps toward improving their health by addressing nutrient deficiencies through dietary changes.

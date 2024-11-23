@@ -18,6 +18,6 @@ The “We Care” app helps users to identify potential nutrient deficiencies ba
 
 *• Take proactive steps by understanding the scientific importance of each nutrient and its effects on your body.*
 
-**[Proposal]**(https://docs.google.com/document/d/1oxAYmFYr82rsNQop1ELBvJuqFrjlFyuo/edit?usp=drive_link&ouid=106197730806080627162&rtpof=true&sd=true)
+**[Proposal](https://docs.google.com/document/d/1oxAYmFYr82rsNQop1ELBvJuqFrjlFyuo/edit?usp=drive_link&ouid=106197730806080627162&rtpof=true&sd=true)**
 
-**[Design]**(https://docs.google.com/document/d/1kEDiGn2WA_kyhsVP3nKzRlTH4_wT4jww/edit?usp=sharing&ouid=106197730806080627162&rtpof=true&sd=true)
+**[Design](https://docs.google.com/document/d/1kEDiGn2WA_kyhsVP3nKzRlTH4_wT4jww/edit?usp=sharing&ouid=106197730806080627162&rtpof=true&sd=true)**

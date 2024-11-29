@@ -49,6 +49,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/useremail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Email"
@@ -70,6 +71,7 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type Your Password"
@@ -91,6 +93,7 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cfmpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Retype Your Password"

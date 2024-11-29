@@ -13,9 +13,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".SigninActivity" />
+            android:name=".Signup_Activity" />
         <activity
-            android:name=".Signup_Activity"
+            android:name=".SigninActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

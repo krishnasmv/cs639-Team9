@@ -5,16 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image"
-    tools:context=".HomeActivity">
+    android:background="@drawable/food1"
+    tools:context=".GeneralSymptoms">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Generalhealthcategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:layout_marginHorizontal="50dp"
-        android:text="Health check"
+        android:text="General Health"
         android:textColor="@color/yellow"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -29,11 +29,11 @@
         android:layout_margin="40dp"
         android:columnCount="2"
         android:rowCount="3"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Generalhealthcategory"
         tools:layout_editor_absoluteX="7dp">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/generalsymptoms"
+            android:id="@+id/EnergyVitality"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="0"
@@ -61,7 +61,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="General Symptoms"
+                    android:text="Energy and Vitaltiy"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
@@ -69,7 +69,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/skinandhair"
+            android:id="@+id/immunesystem"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="0"
@@ -97,7 +97,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General Symptoms"
+                    android:text="Immune System Health"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textStyle="bold" />
@@ -105,7 +105,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/eyes"
+            android:id="@+id/mentalhealth"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="1"
@@ -133,7 +133,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General Symptoms"
+                    android:text="MentalHealth and Cognitive Functions"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textStyle="bold" />
@@ -141,7 +141,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/bones"
+            android:id="@+id/digestivehealth"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="1"
@@ -169,7 +169,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General Symptoms"
+                    android:text="Digestive health"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textStyle="bold" />
@@ -177,7 +177,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/bloodcirculation"
+            android:id="@+id/growth"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="2"
@@ -205,7 +205,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General Symptoms"
+                    android:text="Growth Development"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textStyle="bold" />
@@ -213,7 +213,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/Nervoussystem"
+            android:id="@+id/cardio"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_row="2"
@@ -240,7 +240,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General Symptoms"
+                    android:text="Cardiovascular Health"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textStyle="bold" />

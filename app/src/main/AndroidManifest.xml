@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".EnergyVitality"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralSymptoms"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

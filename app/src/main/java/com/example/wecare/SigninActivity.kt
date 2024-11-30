@@ -1,11 +1,13 @@
 package com.example.wecare
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
+import android.content.SharedPreferences
 import android.widget.Toast
 import com.example.wecare.databinding.ActivitySigninBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -13,7 +15,6 @@ import com.google.firebase.auth.FirebaseAuth
 class SigninActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySigninBinding
     private lateinit var firebaseAuth: FirebaseAuth
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySigninBinding.inflate(layoutInflater)
@@ -33,6 +34,14 @@ class SigninActivity : AppCompatActivity() {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
+                        ///---changes
+                        val sharedPreferences = getSharedPreferences("shared_prefs", Context.MODE_PRIVATE)
+                        val editor = sharedPreferences.edit()
+                        editor.putString("username", email)
+                        editor.apply() // or editor.commit() if you want to block until the changes are saved
+
+                        //---changes
+
                         val intent = Intent(this, HomeActivity::class.java)
                         startActivity(intent)
                     } else {

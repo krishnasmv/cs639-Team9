@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".Cardiovascularhealth"
+            android:exported="false" />
+        <activity
+            android:name=".GrowthandDevelopment"
+            android:exported="false" />
+        <activity
+            android:name=".DigestiveAndMetabolicHealth"
+            android:exported="false" />
+        <activity
+            android:name=".MentalAndHealth"
+            android:exported="false" />
+        <activity
+            android:name=".ImmuneSystemHealth"
+            android:exported="false" />
+        <activity
             android:name=".CustomExpandableListAdapter"
             android:exported="false" />
         <activity

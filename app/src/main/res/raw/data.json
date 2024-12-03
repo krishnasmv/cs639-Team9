@@ -1,0 +1,49 @@
+{
+  "symptoms": [
+    {
+      "title": "Fatigue and Weakness",
+      "children": [
+        {
+          "title": "Causes",
+          "details": "Iron, Vitamin B12, Folate, or Vitamin D deficiency",
+          "image": "spinach_image"
+        },
+        {
+          "title": "Foods",
+          "details": "Spinach, eggs, citrus fruits, sunlight exposure",
+          "image": "eggs_image"
+        }
+      ]
+    },
+    {
+      "title": "Muscle Weakness or Cramps",
+      "children": [
+        {
+          "title": "Causes",
+          "details": "Protein, Magnesium, or Potassium deficiency",
+          "image": "nuts_image"
+        },
+        {
+          "title": "Foods",
+          "details": "Chicken, nuts, bananas, spinach",
+          "image": "banana_image"
+        }
+      ]
+    },
+    {
+      "title": "Slow Metabolism",
+      "children": [
+        {
+          "title": "Causes",
+          "details": "Iodine deficiency (affects thyroid function)",
+          "image": "salt_image"
+        },
+        {
+          "title": "Foods",
+          "details": "Iodized salt, fish, dairy products",
+          "image": "fish_image"
+        }
+      ]
+    }
+  ]
+}

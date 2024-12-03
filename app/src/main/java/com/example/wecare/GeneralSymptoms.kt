@@ -20,7 +20,7 @@ class GeneralSymptoms : AppCompatActivity() {
 //        val username = sharedPreferences.getString("username","").toString();
 //        Toast.makeText(applicationContext,"welcome "+username, Toast.LENGTH_SHORT).show();
 
-        val exit: CardView = findViewById(R.id.EnergyVitality)
+        val exit: CardView = findViewById(R.id.energyAndVitality)
         exit.setOnClickListener {
             startActivity(Intent(this, EnergyVitality::class.java))
         }

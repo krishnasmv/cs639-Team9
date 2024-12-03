@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".CustomExpandableListAdapter"
+            android:exported="false" />
+        <activity
             android:name=".EnergyVitality"
             android:exported="false" />
         <activity

@@ -13,6 +13,36 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".Neurological"
+            android:exported="false" />
+        <activity
+            android:name=".CognitiveImpairment"
+            android:exported="false" />
+        <activity
+            android:name=".NervousSystem"
+            android:exported="false" />
+        <activity
+            android:name=".BloodClotting"
+            android:exported="false" />
+        <activity
+            android:name=".Anemia"
+            android:exported="false" />
+        <activity
+            android:name=".bloodCirulation"
+            android:exported="false" />
+        <activity
+            android:name=".JointHealth"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleHealth"
+            android:exported="false" />
+        <activity
+            android:name=".BoneHealth"
+            android:exported="false" />
+        <activity
+            android:name=".BoneMuscleJointHealth"
+            android:exported="false" />
+        <activity
             android:name=".EyeStructure"
             android:exported="false" />
         <activity

@@ -38,5 +38,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, SkinandHair::class.java))
         }
 
+        val eyes: CardView = findViewById(R.id.eyes)
+        eyes.setOnClickListener {
+            val editor = sharedPreferences.edit()
+            editor.clear()
+            editor.apply()
+            startActivity(Intent(this, Eyes::class.java))
+        }
+
     }
 }

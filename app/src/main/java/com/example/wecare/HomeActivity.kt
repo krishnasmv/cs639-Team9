@@ -54,5 +54,21 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, BoneMuscleJointHealth::class.java))
         }
 
+        val bloodcirculationcard: CardView = findViewById(R.id.bloodCirculation)
+        bloodcirculationcard.setOnClickListener {
+            val editor = sharedPreferences.edit()
+            editor.clear()
+            editor.apply()
+            startActivity(Intent(this, bloodCirulation::class.java))
+        }
+
+        val nervoussystemcard: CardView = findViewById(R.id.nervousSystem)
+        nervoussystemcard.setOnClickListener {
+            val editor = sharedPreferences.edit()
+            editor.clear()
+            editor.apply()
+            startActivity(Intent(this, NervousSystem::class.java))
+        }
+
     }
 }

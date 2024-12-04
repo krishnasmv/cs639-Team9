@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".Nails"
+            android:exported="false" />
+        <activity
+            android:name=".Hair"
+            android:exported="false" />
+        <activity
+            android:name=".skin"
+            android:exported="false" />
+        <activity
+            android:name=".SkinandHair"
+            android:exported="false" />
+        <activity
             android:name=".Cardiovascularhealth"
             android:exported="false" />
         <activity

@@ -30,5 +30,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, GeneralSymptoms::class.java))
         }
 
+        val skinandhair: CardView = findViewById(R.id.skinandhair)
+        skinandhair.setOnClickListener {
+            val editor = sharedPreferences.edit()
+            editor.clear()
+            editor.apply()
+            startActivity(Intent(this, SkinandHair::class.java))
+        }
+
     }
 }

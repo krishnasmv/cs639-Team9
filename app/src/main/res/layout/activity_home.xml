@@ -169,7 +169,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Eyes"
+                    android:text="Bone, Muscle, and Joint Health"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textStyle="bold" />

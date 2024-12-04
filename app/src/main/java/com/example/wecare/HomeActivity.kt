@@ -46,5 +46,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, Eyes::class.java))
         }
 
+        val bonejoint: CardView = findViewById(R.id.bonesAndJoint)
+        bonejoint.setOnClickListener {
+            val editor = sharedPreferences.edit()
+            editor.clear()
+            editor.apply()
+            startActivity(Intent(this, BoneMuscleJointHealth::class.java))
+        }
+
     }
 }

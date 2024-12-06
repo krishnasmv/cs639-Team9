@@ -1,4 +1,15 @@
 <resources>
+
+    <style name="Base.Theme.AppCompat." parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator." parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/yellow2</item>
+    </style>
+
     <string name="app_name">WeCare</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>

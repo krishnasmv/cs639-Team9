@@ -14,4 +14,6 @@
     <color name="my_primary">#5E35B1</color>
     <color name="my_secondary">#673Ab7</color>
     <color name="yellow">#FFC801</color>
+    <color name="blue">#1a9df1</color>
+    <color name="yellow2">#FFd230</color>
 </resources>

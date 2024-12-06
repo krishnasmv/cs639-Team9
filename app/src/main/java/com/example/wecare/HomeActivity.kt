@@ -10,6 +10,7 @@ import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.wecare.databinding.ActivitySigninBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import android.content.SharedPreferences as SharedPreferences
 
 class HomeActivity : AppCompatActivity() {
@@ -68,6 +69,29 @@ class HomeActivity : AppCompatActivity() {
             editor.clear()
             editor.apply()
             startActivity(Intent(this, NervousSystem::class.java))
+        }
+
+        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomnav)
+        bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.home -> {
+                    // Handle home icon click
+                    startActivity(
+                        Intent(
+                            this,
+                            SkinandHair::class.java
+                        )
+                    ) // or your desired activity
+                    true
+                }
+//                R.id.navigation_other -> {
+//                    // Handle other item click
+//                    startActivity(Intent(this, OtherActivity::class.java)) // replace with your desired activity
+//                    true
+//                }
+                // Add more cases for other menu items as needed
+                else -> false
+            }
         }
 
     }

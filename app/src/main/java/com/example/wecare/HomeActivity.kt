@@ -74,14 +74,15 @@ class HomeActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomnav)
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.home -> {
-                    // Handle home icon click
-                    startActivity(
-                        Intent(
-                            this,
-                            SkinandHair::class.java
-                        )
-                    ) // or your desired activity
+                R.id.home -> { startActivity(Intent(this, SkinandHair::class.java)) // or your desired activity
+                    true
+                }
+                R.id.doctor -> {
+                    startActivity(Intent(this, MainDoctor::class.java))
+                    true
+                }
+                R.id.profile -> {
+                    startActivity(Intent(this, ProfilePage::class.java))
                     true
                 }
 //                R.id.navigation_other -> {

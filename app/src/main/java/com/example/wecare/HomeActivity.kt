@@ -16,6 +16,7 @@ import android.content.SharedPreferences as SharedPreferences
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: HomeActivity
     override fun onCreate(savedInstanceState: Bundle?) {
+        val intent = Intent(this, HealthyFoodActivity::class.java)
         super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
         setContentView(R.layout.activity_home);
@@ -74,7 +75,7 @@ class HomeActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomnav)
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.home -> { startActivity(Intent(this, SkinandHair::class.java)) // or your desired activity
+                R.id.home -> { startActivity(intent) // or your desired activity
                     true
                 }
                 R.id.doctor -> {

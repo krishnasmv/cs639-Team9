@@ -22,4 +22,7 @@
     <string name="welcome">WeCare</string>
     <string name="substring">We care about you health</string>
     <string name="getstarted">Get Started</string>
+    <string name="food1_image_desc">Image of Food 1</string>
+    <string name="food2_image_desc">Image of Food 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

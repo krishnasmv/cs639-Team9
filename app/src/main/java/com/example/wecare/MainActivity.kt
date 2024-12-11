@@ -1,7 +1,9 @@
 package com.example.wecare
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -24,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setContentView(binding.root)
 
         binding.getstarted.setOnClickListener {
-            val intent = Intent(this, HealthyFoodActivity::class.java)
+            val intent = Intent(this, MainHomePage::class.java)
             startActivity(intent)
         }
     }

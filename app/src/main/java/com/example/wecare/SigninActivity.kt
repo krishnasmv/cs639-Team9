@@ -41,8 +41,10 @@ class SigninActivity : AppCompatActivity() {
                         editor.apply() // or editor.commit() if you want to block until the changes are saved
 
                         //---changes
+                        val username = sharedPreferences.getString("username","").toString();
+                        Toast.makeText(applicationContext,"welcome "+username, Toast.LENGTH_SHORT).show();
 
-                        val intent = Intent(this, HomeActivity::class.java)
+                        val intent = Intent(this, MainHomePage::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()

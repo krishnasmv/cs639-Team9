@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         setContentView(binding.root)
 
         binding.getstarted.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HealthyFoodActivity::class.java)
             startActivity(intent)
         }
     }

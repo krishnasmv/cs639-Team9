@@ -13,19 +13,16 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name=".HealthyFoodActivity"
+            android:name=".MainHomePage"
             android:exported="false" />
         <activity
-            android:name=".FoodActivity"
-            android:exported="true" />
+            android:name=".HealthyFoodActivity"
+            android:exported="false" />
         <activity
             android:name=".ProfilePage"
             android:exported="false" />
         <activity
             android:name=".MainDoctor"
-            android:exported="false" />
-        <activity
-            android:name=".DoctorMainActivity"
             android:exported="false" />
         <activity
             android:name=".Bottomnavigation"

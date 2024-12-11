@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Bottomnavigation">
+    android:background="@drawable/dg2"
+    tools:context=".HealthyFoodActivity">
 
     <!-- ImageView for Food Image -->
     <ImageView
@@ -13,47 +14,65 @@
         android:layout_height="300dp"
         android:layout_margin="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/immunesystem" />
+        android:src="@drawable/salmon" />
 
     <!-- TextView for Description -->
     <TextView
-        android:id="@+id/textViewDescription"
+        android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageViewFood"
         android:layout_margin="16dp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_margin="16dp"
         android:text="Food description goes here"
-        android:textSize="16sp" />
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal" />
 
     <!-- ExpandableListView for Nutrients -->
     <ExpandableListView
         android:id="@+id/expandableListViewNutrients"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewDescription"
         android:layout_above="@id/buttonPrevious"
+        android:layout_below="@id/textViewDescription"
         android:layout_margin="16dp"
-        android:dividerHeight="1dp" />
+        android:dividerHeight="1dp"
+        android:textStyle="normal" />
 
     <!-- Previous Button -->
     <Button
         android:id="@+id/buttonPrevious"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previous"
-        android:layout_alignParentStart="true"
         android:layout_above="@id/bottomnav"
-        android:layout_margin="16dp" />
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:background="#02355D"
+        android:text="Previous" />
 
     <!-- Next Button -->
     <Button
         android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
-        android:layout_alignParentEnd="true"
         android:layout_above="@id/bottomnav"
-        android:layout_margin="16dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="#02355D"
+        android:text="Next" />
 
     <!-- Bottom Navigation -->
     <com.google.android.material.bottomnavigation.BottomNavigationView

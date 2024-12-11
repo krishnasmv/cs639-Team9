@@ -16,16 +16,15 @@
             android:id="@+id/main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/doctorbackgroundimg">
+            android:background="#388E3C">
 
             <TextView
                 android:id="@+id/textViewTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/yellow2"
                 android:text="HealthCare"
                 android:textAlignment="center"
-                android:textColor="#2C87CF"
+                android:textColor="#E7EDF1"
                 android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +52,7 @@
             <ListView
                 android:id="@+id/listView"
                 android:layout_width="400dp"
-                android:layout_height="450dp"
+                android:layout_height="480dp"
                 android:layout_marginBottom="56dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +63,7 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#64DD69"
+                android:background="#1565C0"
                 android:text="Back"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

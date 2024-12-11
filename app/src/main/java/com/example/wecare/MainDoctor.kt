@@ -13,11 +13,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainDoctor : AppCompatActivity() {
     private val doctorDetails = arrayOf(
-        arrayOf("Doctor Name: Ajit Saste", "Hospital Address: Pimpri", "Exp: 5yrs", "Mobile No: 9898989898", "600"),
-        arrayOf("Doctor Name: Prasad Pawar", "Hospital Address: Nigdi", "Exp: 15yrs", "Mobile No: 7898989898", "900"),
-        arrayOf("Doctor Name: Swapnil Kale", "Hospital Address: Pune", "Exp: 8yrs", "Mobile No: 8898989898", "300"),
-        arrayOf("Doctor Name: Deepak Deshmukh", "Hospital Address: Chinchwad", "Exp: 6yrs", "Mobile No: 9898000000", "700"),
-        arrayOf("Doctor Name: Ashok Panda", "Hospital Address: Katrai", "Exp: 7yrs", "Mobile No: 7798989898", "800")
+        arrayOf("Doctor Name: Dr. James Anderson", "Hospital Address: New York City, NY", "Exp: 10yrs", "Mobile No: 2125551234", "150"),
+    arrayOf("Doctor Name: Dr. Emily Carter", "Hospital Address: Los Angeles, CA", "Exp: 8yrs", "Mobile No: 3105552345", "200"),
+    arrayOf("Doctor Name: Dr. John Smith", "Hospital Address: Chicago, IL", "Exp: 12yrs", "Mobile No: 7735553456", "180"),
+    arrayOf("Doctor Name: Dr. Sarah Lee", "Hospital Address: Miami, FL", "Exp: 6yrs", "Mobile No: 3055554567", "250"),
+    arrayOf("Doctor Name: Dr. Michael Johnson", "Hospital Address: Houston, TX", "Exp: 15yrs", "Mobile No: 7135555678", "300"),
+    arrayOf("Doctor Name: Dr. Laura Davis", "Hospital Address: Boston, MA", "Exp: 9yrs", "Mobile No: 6175556789", "220"),
+    arrayOf("Doctor Name: Dr. David Brown", "Hospital Address: San Francisco, CA", "Exp: 14yrs", "Mobile No: 4155557890", "280"),
+    arrayOf("Doctor Name: Dr. Elizabeth White", "Hospital Address: Washington, D.C.", "Exp: 11yrs", "Mobile No: 2025558901", "210"),
+    arrayOf("Doctor Name: Dr. William Green", "Hospital Address: Seattle, WA", "Exp: 7yrs", "Mobile No: 2065559012", "230"),
+    arrayOf("Doctor Name: Dr. Jessica Clark", "Hospital Address: Phoenix, AZ", "Exp: 13yrs", "Mobile No: 6025550123", "260")
     )
     private lateinit var tv: TextView
     private lateinit var tvsec: TextView
@@ -50,7 +55,7 @@ class MainDoctor : AppCompatActivity() {
 //        }
 
         btn.setOnClickListener {
-            startActivity(Intent(this, Cardiovascularhealth::class.java))
+            startActivity(Intent(this, MainHomePage::class.java))
         }
 
         // Populate the ListView only if there are doctor details

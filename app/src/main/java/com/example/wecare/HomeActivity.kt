@@ -20,62 +20,48 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
         setContentView(R.layout.activity_home);
-        val sharedPreferences = getSharedPreferences("shared_prefs", Context.MODE_PRIVATE)
-        val username = sharedPreferences.getString("username","").toString();
-        Toast.makeText(applicationContext,"welcome "+username, Toast.LENGTH_SHORT).show();
 
         val exit: CardView = findViewById(R.id.generalsymptoms)
         exit.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
             startActivity(Intent(this, GeneralSymptoms::class.java))
         }
 
         val skinandhair: CardView = findViewById(R.id.skinandhair)
         skinandhair.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
             startActivity(Intent(this, SkinandHair::class.java))
         }
 
         val eyes: CardView = findViewById(R.id.eyes)
         eyes.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
             startActivity(Intent(this, Eyes::class.java))
         }
 
         val bonejoint: CardView = findViewById(R.id.bonesAndJoint)
         bonejoint.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
             startActivity(Intent(this, BoneMuscleJointHealth::class.java))
         }
 
         val bloodcirculationcard: CardView = findViewById(R.id.bloodCirculation)
         bloodcirculationcard.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
+
             startActivity(Intent(this, bloodCirulation::class.java))
         }
 
         val nervoussystemcard: CardView = findViewById(R.id.nervousSystem)
         nervoussystemcard.setOnClickListener {
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
             startActivity(Intent(this, NervousSystem::class.java))
         }
 
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomnav)
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.home -> { startActivity(intent) // or your desired activity
+                R.id.home -> { startActivity(Intent(this, MainHomePage::class.java)) // or your desired activity
+                    true
+                }
+                R.id.learn ->{ startActivity(Intent(this, HealthyFoodActivity::class.java)) // or your desired activity
+                    true
+                }
+                R.id.health->{ startActivity(Intent(this, HomeActivity::class.java)) // or your desired activity
                     true
                 }
                 R.id.doctor -> {
@@ -93,8 +79,7 @@ class HomeActivity : AppCompatActivity() {
 //                }
                 // Add more cases for other menu items as needed
                 else -> false
-            }
-        }
+            }}
 
     }
 }

@@ -17,4 +17,6 @@
     <color name="blue">#1a9df1</color>
     <color name="yellow2">#FFd230</color>
     <color name="profilebackground">#FAFBFA</color>
+    <color name="bluejc">#FF3DC6FC</color>
+    <color name="darkbluejc">#FF145DA0</color>
 </resources>

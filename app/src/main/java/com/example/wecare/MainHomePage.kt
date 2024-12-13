@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.content.Intent
+import android.widget.ImageView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 @Suppress("DEPRECATION")
@@ -25,15 +26,27 @@ class MainHomePage : AppCompatActivity() {
 
         // Example: Dynamic Health Tip
         val tips = listOf(
-            "Eat more greens for better digestion.",
-            "Stay hydrated – drink at least 8 glasses of water daily!",
-            "Exercise regularly to boost your energy."
+            "Eat well: Eat a balanced diet of nourishing, real foods that are unprocessed and have few ingredients. Limit processed foods and sugar.",
+            "Stay hydrated: Drink plenty of water, about 8 glasses a day. Water helps your body in many ways, including regulating your temperature, pumping blood, and promoting regular bowel movements.",
+            "Exercise regularly: Physical activity can help reduce stress and improve your health.",
+            "Get enough sleep: Poor sleep can disrupt your appetite and hormones, and reduce your mental and physical performance.",
+            "Limit alcohol: There is no safe level of alcohol consumption. Excessive alcohol can lead to liver damage, cancer, heart disease, and mental illness."
         )
         healthTipText.text = tips.random()
 
         // Button: Navigate to Explore Symptoms
         exploreSymptomsButton.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+        val featured: ImageView = findViewById(R.id.symptomOfTheDayImage)
+        featured.setOnClickListener() {
+            val intent = Intent(this, FeaturedItems::class.java)
+            startActivity(intent)
+        }
+        val featured2: ImageView = findViewById(R.id.foodHighlightImage)
+        featured2.setOnClickListener() {
+            val intent = Intent(this, FeaturedItems::class.java)
             startActivity(intent)
         }
 

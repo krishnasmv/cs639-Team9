@@ -49,17 +49,10 @@ class MainDoctor : AppCompatActivity() {
 
         doctor_details = doctorDetails
 
-//        if (title == "Family Physicians") {
-//            doctor_details = doctorDetails
-//        } else {
-//            Log.d("MainDoctor", "No doctor details to display for title: $title")
-//        }
-
         btn.setOnClickListener {
             startActivity(Intent(this, MainHomePage::class.java))
         }
 
-        // Populate the ListView only if there are doctor details
         if (doctor_details.isNotEmpty()) {
             val list = ArrayList<HashMap<String, String>>()
             for (i in doctor_details.indices) {
@@ -105,12 +98,6 @@ class MainDoctor : AppCompatActivity() {
                     startActivity(Intent(this, ProfilePage::class.java))
                     true
                 }
-//                R.id.navigation_other -> {
-//                    // Handle other item click
-//                    startActivity(Intent(this, OtherActivity::class.java)) // replace with your desired activity
-//                    true
-//                }
-                // Add more cases for other menu items as needed
                 else -> false
             }}
     }

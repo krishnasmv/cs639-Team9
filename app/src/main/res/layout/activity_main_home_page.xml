@@ -132,7 +132,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_weight="1"
-                    android:src="@drawable/food1"
+                    android:src="@drawable/food4"
                     android:scaleType="centerCrop"
                     android:layout_marginEnd="8dp" />
 
@@ -141,7 +141,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_weight="1"
-                    android:src="@drawable/food1"
+                    android:src="@drawable/food2"
                     android:scaleType="centerCrop"
                     android:layout_marginStart="8dp" />
             </LinearLayout>

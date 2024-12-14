@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79C7D1"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/heartHealthyFoodsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Healthy Heart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/theBasicsOverviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="The Basics: Overview"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heartHealthyFoodsText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="The Basics: What Is Heart Disease?"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/theBasicsOverviewText2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Take Action: Know the Signs of a Heart Attack"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:paddingBottom="8dp" />-->
+
+</LinearLayout>

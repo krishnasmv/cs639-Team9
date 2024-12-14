@@ -36,7 +36,7 @@ class MainHomePage : AppCompatActivity() {
 
         // Button: Navigate to Explore Symptoms
         exploreSymptomsButton.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HealthAPIActivity::class.java)
             startActivity(intent)
         }
         val featured: ImageView = findViewById(R.id.symptomOfTheDayImage)

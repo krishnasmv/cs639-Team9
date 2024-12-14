@@ -21,3 +21,9 @@ The “We Care” app helps users to identify potential nutrient deficiencies ba
 **[Proposal](https://docs.google.com/document/d/1oxAYmFYr82rsNQop1ELBvJuqFrjlFyuo/edit?usp=drive_link&ouid=106197730806080627162&rtpof=true&sd=true)**
 
 **[Design](https://docs.google.com/document/d/1kEDiGn2WA_kyhsVP3nKzRlTH4_wT4jww/edit?usp=sharing&ouid=106197730806080627162&rtpof=true&sd=true)**
+
+**[APK](https://drive.google.com/file/d/1ayc8Bf4iUPWTuNdJz_ws_7-ktW2kJYSK/view?usp=sharing)**
+
+**[Presentation](https://docs.google.com/presentation/d/1Zoq7iajm9aeqZuyuYkapnlkvpyt-3sbC/edit#slide=id.p11)**
+
+**[Video](https://youtube.com/shorts/8Muy9HjEjL8?si=9uePk-iFqjcQF1g3)**

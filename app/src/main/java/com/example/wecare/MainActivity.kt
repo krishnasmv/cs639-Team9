@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setContentView(binding.root)
 
         binding.getstarted.setOnClickListener {
-            val intent = Intent(this, MainHomePage::class.java)
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
     }

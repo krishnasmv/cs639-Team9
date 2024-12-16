@@ -24,7 +24,7 @@ class ProfilePage : AppCompatActivity() {
         val exit: LinearLayout = findViewById(R.id.logout)
         exit.setOnClickListener {
             user.signOut()
-            startActivity(Intent(this, SigninActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
 
         }
 
